@@ -9,6 +9,7 @@ Singleton {
 
     property real bpm: 150
 
+    /*
     Process {
         running: true
         command: [`${Paths.libdir}/beat_detector`, "--no-log", "--no-stats", "--no-visual"]
@@ -20,4 +21,5 @@ Singleton {
             }
         }
     }
+    */
 }
